@@ -1,6 +1,7 @@
 body {
     background-color: grey;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -15,6 +16,8 @@ span {
 
 #top-container {
     background-color: #A799B7;
+    position: relative;
+    padding-top: 100px;
 }
 
 #middle-container {
@@ -27,4 +30,18 @@ span {
     width: 200px;
     height: 200px;
     background-color: blue;
+}
+
+/*****CLASS SELECTORS*****/
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
