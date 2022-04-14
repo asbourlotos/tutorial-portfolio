@@ -2,10 +2,21 @@ body {
     background-color: grey;
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
+    font-size: 5.5em;
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 span {
@@ -21,15 +32,11 @@ span {
 }
 
 #middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    
 }
 
 #bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    
 }
 
 /*****CLASS SELECTORS*****/
